@@ -54,7 +54,7 @@ public class Commons {
     public static String gravatar(String email) {
         String avatarUrl = "https://github.com/ynwynw/";
         if (StringUtils.isBlank(email)) {
-            email = "931708230@qq.com";
+            email = "1556708905@qq.com";
         }
         String hash = TaleUtils.MD5encode(email.trim().toLowerCase());
         return avatarUrl + hash + ".png";
